@@ -2,7 +2,7 @@ version: '3'
 
 services:
   hackuntu:
-    build:
+    build: .
     tty: true
     ports:
       - 80:80
