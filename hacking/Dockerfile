@@ -11,7 +11,7 @@ RUN apt update && \
 apt install -y zsh file build-essential jq strace unzip curl wget gcc dnsutils netcat net-tools vim gdb gdb-multiarch python3 python3-pip python3-dev git make
 
 # directory to drop tools at
-RUN mkdir /tools 
+RUN mkdir /tools
 
 # zsh plugins
 RUN cd /tools && \
